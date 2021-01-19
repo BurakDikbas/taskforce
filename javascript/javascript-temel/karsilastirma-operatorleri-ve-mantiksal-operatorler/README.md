@@ -68,7 +68,23 @@ console.log(c>=d)  "Ekranda çıkan sonuç = true"
 ```
 a değerimiz b değerimizden büyük olması durumunda true dönecektir. a ve b değişkenleri kıyaslandığında a'nın daha büyük olmasından dolayı **true** sonucunu aldık.
 
-c değerimizin d'den büyük veya eşit olması durumunda true olmaması durumunda false sonucu çıkacaktır. a değerimiz b ye eşit olduğu için sonucumuz **true** olmuştur. 
+c değerimizin d'den büyük veya eşit olması durumunda true, olmaması durumunda ise false sonucu çıkacaktır. a değerimiz b ye eşit olduğu için sonucumuz **true** olmuştur. 
+
+#### Karşılaştırma Operatörlerinin Tablosu
+
+Aşağıdaki tabloda genel olarak karşılaştırma operatörlerinin işlevleri açıklanmıştır.
+
+Operatör | Açıklaması
+-- | --
+a == b  | a ve b eşit mi?
+a === b | a ve b değerleri ve değer türleri eşit mi?
+a != b  | a ve b değerleri eşit değil mi?
+a !== b | a ve b değerleri veya değer türleri eşit mi?
+a > b   | a değeri b değerinden büyük mü?
+a < b   | a değeri b değerinden küçük mü?
+a >= b  | a değeri b değerinden büyük veya eşit mi?
+a <= b  | a değeri b değerinden küçük veya eşit mi?
+?       | kısaltılmış koşul operatörü
 
 ## Kaynakça
 
