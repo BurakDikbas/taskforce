@@ -8,11 +8,18 @@ Karşılaştırma operatörleri, değişkenler veya değerler arasındaki eşitl
 ```
 var a = 10;
 var b = "10";
-console.log(a==b)  "a ve b değeri birbirine eşit olduğu için sonuç **bold text** olacaktır.
+console.log(a==b)  "Ekranda çıkan sonuç = true"
+```
+a ve b değeri birbirine eşit olduğu için sonuç **true** olacaktır.
+
+##### === Hem değeri hem de türü eşitse
 
 ```
-
-
+var a = 10;
+var b = "10";
+console.log(a===b)  "Ekranda çıkan sonuç = false"
+```
+a ve b değeri arasında üç tane eşittir olmasından ötürü burada hem değerin hem de türün eşit olup olmadığı kontrol edilecektir. a ve b değişkenin değeri aynı olmasına karşın türleri farklı olduğu için sonuç **false** olacaktır.
 
 
 
