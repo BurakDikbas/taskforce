@@ -112,6 +112,7 @@ console.log(!(a>11 || b="kodluyoruz"))  "Ekranda çıkan sonuç = false"
 ```
 ! (değil) mantıksal operatörümüz çalışma mantığı çıkan sonucumuzun tam tersini vermesidir. Yukarıda verdiğimiz örnek ! operatörü olmadan true sonucu döndürücektir fakat ! operatörümüz çıkan true sonucu terse çevirdiği için sonuç **false** dönecektir.
 
+### Sorular
 
 - Aşağıdaki logların hangisinde sonuç hem değer olarak hem tür olarak karşılaştırıldıktan sonra ekran yazdırılır?
   - ```console.log(a==b)```
@@ -125,7 +126,7 @@ console.log(!(a>11 || b="kodluyoruz"))  "Ekranda çıkan sonuç = false"
   - ```console.log(price>2 && user=="guest")```
   - ```console.log(!(price>0 && user=="guest"))```
 
-## Kaynakça
+### Kaynakça
 
 Kodluyoruz Frontend End 101 Video Eğitimi - Hakan Yalçınkaya
 
